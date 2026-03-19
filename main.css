@@ -1,0 +1,247 @@
+/* reset CSS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+
+}
+
+/* end reset CSS */
+
+main {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    font-family: volkhov-regular;
+    font-weight: normal;
+    padding: 10px;
+}
+
+h1 {
+    padding-top: 200px;
+    font-size: 250px;
+    font-weight: normal;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: Manufacturing Consent, system-ui;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: volkhov-regular;
+    color: black;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: volkhov-regular;
+    color: black;
+}
+
+/* article */
+article {
+    width: 400px;
+    border: none;
+    padding: 20px;
+    align-items: center;
+    border:#000000 solid 5px;
+}
+
+article img {
+    height: auto;
+    align-items: center;
+}
+/* article */
+
+/* Navigation */
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(179, 191, 184);
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+}
+
+nav a{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+/* End Navigation */
+
+footer {
+    background-color: rgb(179, 191, 184);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style: italic;
+    padding-left: 20px;
+    padding-right: 20px;
+    p { 
+        color:rgb(255, 255, 255)
+    }
+}
+
+/* Change all social icons at once */
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin, .fa-github {
+    color: rgb(0, 0, 0);
+    margin-right: 10px
+}
+
+footer img{
+    margin-right:10px;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button-small {
+    padding: 10px 10px;
+    background-color: rgb(179, 191, 184);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    width: 100px;
+}
+
+.button-small:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Hero Images for Pages */
+.hero {
+    width: 500px;
+    height: 900px;
+    background-image: url(Images/IMG_9990.jpeg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 5px;
+}
+.hero-home {
+    width: 600px;
+    height: 600px;
+    background-image: url(Images/headshot.webp);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+/* End Hero Images for Pages */
+
+/*
+.animated {
+    opacity: 100%
+    animation
+}
+*/
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    border: 20px solid rgb(255, 255, 255);
+    background-color:rgb(117, 117, 117);
+    font-family: volkhov-regular;
+}
+form button {
+    background-color: rgb(179, 191, 184);
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+form button:hover {
+    background-color: #000000; /* Slightly darker on hover */
+}
+/* Contact Form */
+
+.manufacturing-consent-regular {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-regular {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-bold {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.volkhov-regular-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.volkhov-bold-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: italic;
+}
